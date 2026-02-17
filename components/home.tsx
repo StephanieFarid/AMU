@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Logo from '../public/logo.jpg';
 
 interface FullPageImageProps {
-  src: string | StaticImageData;
-  alt: string;
+  src?: string | StaticImageData;
+  alt?: string;
   priority?: boolean; // Set to true if this is the LCP image
 }
 
