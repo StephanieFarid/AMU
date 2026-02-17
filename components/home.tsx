@@ -1,4 +1,4 @@
-import { Image, StaticImageData } from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Logo from '../public/logo.jpg';
 
 interface FullPageImageProps {
