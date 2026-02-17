@@ -23,11 +23,11 @@ const FullPageImage = ({ src, alt, priority = true }: FullPageImageProps) => {
         className="z-0"
       />
       
-      {/* Optional: Content Overlay */}
+      {/* Optional: Content Overlay
       <div className="relative z-10 flex h-full items-center justify-center bg-black/20">
         <h1 className="text-4xl font-bold text-white md:text-6xl">
         </h1>
-      </div>
+      </div> */}
     </div>
   );
 };

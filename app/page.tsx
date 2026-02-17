@@ -2,8 +2,8 @@ import Home from '../components/home';
 
 export default function Page() {
   return (
-    <main>
+    <div>
       <Home />
-    </main>
+    </div>
   );
 }
